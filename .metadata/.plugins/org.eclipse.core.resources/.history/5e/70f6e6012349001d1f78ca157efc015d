@@ -1,0 +1,21 @@
+package com.map;
+
+import java.util.Map;
+import java.util.TreeMap;
+
+public class Main1 {
+
+	public static void main(String[] args) {
+
+		
+		Student2 st = new Student2("Lalu", 90);
+		Student2 st1 = new Student2("Lalit", 100);
+		
+		CompartorClass cc =new CompartorClass();
+		
+		Map<Student2, String> map = new TreeMap<>(cc);
+		map.put(st, "SVM");
+		map.put(st1, "DPS");
+	}
+
+}

@@ -1,0 +1,19 @@
+package com.mainproject;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import project.DrivingL;
+
+class PassportApplicationTest {
+
+	@Test
+	void test() {
+		PassportApplication l= new PassportApplication("Lalu", 20, 0, 0);
+		String actual = l.ageVerifi();
+		String expected = "test case successfull";
+		assertEquals(expected, actual);
+	}
+
+}

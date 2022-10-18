@@ -1,0 +1,41 @@
+package UsingInterface;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		Employee e = new Employee("Lalu", 20000);
+		e.getbonus();		
+		Employee e1 = new Employee("Lalit", 10000);
+		e1.getbonus();
+		Employee e2 = new Employee("Aryan", 15000);
+		e2.getbonus();
+		Employee e3 = new Employee("Lalu", 30000);
+		e3.getbonus();
+		Employee e4 = new Employee("Lalu", 40000);
+		e4.getbonus();
+		
+		
+		List<Employee> list =new ArrayList<>();
+		
+		list.add(e);
+		list.add(e1);
+		list.add(e2);
+		list.add(e3);
+		list.add(e4);
+		
+		for (Employee employee : list) {
+		
+			employee.getbonus();
+			
+			
+		}
+		System.out.println(list);
+
+	}
+
+}

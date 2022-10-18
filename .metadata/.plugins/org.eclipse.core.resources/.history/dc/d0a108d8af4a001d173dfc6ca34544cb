@@ -1,0 +1,16 @@
+import java.lang.System.Logger;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+public class UserAuthentication {
+	
+	public void loginuser(String username ,String password) {
+		Log logger = LogF
+		if(username.isBlank()) {
+			Logger.info("Username is black");
+			throw new RuntimeException();
+		}
+	}
+
+}

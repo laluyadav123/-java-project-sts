@@ -1,0 +1,13 @@
+
+e
+java:S1854"9Remove this useless assignment to local variable "other".(¨ˆ‚∑H∞RMAJORZ
+CODE_SMELL
+D
+java:S2097"Add a type test to this method.(ç‹—„H±RMINORZBUG
+l	java:S125"<This block of commented-out lines of code should be removed.(öﬁÜ„˘ˇˇˇˇH≤RMAJORZ
+CODE_SMELL
+V
+java:S1481"*Remove this unused "other" local variable.(¨ˆ‚∑H∏RMINORZ
+CODE_SMELL
+g	java:S125"<This block of commented-out lines of code should be removed.(‹¸ÔÅH∫RMAJORZ
+CODE_SMELL

@@ -1,0 +1,13 @@
+package com.mainproject;
+
+public class PassportMain {
+
+	public static void main(String[] args) {
+		
+		PassportApplication pa=new PassportApplication("jon", 18, "Indian", "No Record");
+		pa.mendatoryChecks();
+		
+
+	}
+
+}

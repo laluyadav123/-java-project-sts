@@ -1,0 +1,13 @@
+package com.mainproject;
+
+import org.junit.jupiter.api.Test;
+
+class PassportApplicationTest {
+
+	@Test
+	void test() {
+		PassportApplication p= new PassportApplication("Lalu", 24, 0, 0);
+		
+	}
+
+}

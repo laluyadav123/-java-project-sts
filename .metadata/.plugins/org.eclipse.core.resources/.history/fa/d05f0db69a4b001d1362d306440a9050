@@ -1,0 +1,70 @@
+package com.mainproject;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+public class PassportMain {
+
+	public static void main(String[] args) {
+		Log logger = LogFactory.getLog(PassportMain.class);
+		
+	
+		PassportApplication pa=new PassportApplication("jon", 20, "Indian", 0);
+		try {
+		pa.mendatoryChecks();
+		}catch (Exception e) {
+			logger.info("error occure while making passport");
+		}
+		
+		PassportApplication pa1=new PassportApplication("Aryan", 20, "Indian", 0);
+		try {
+		pa1.mendatoryChecks();
+		}catch (Exception e) {
+			logger.info("error occure while making passport");
+		}
+		
+		
+		PassportApplication pa2=new PassportApplication("Bob", 34, "Indian", 1);
+		try {
+		pa2.mendatoryChecks();
+		}catch (Exception e) {
+			logger.info("error occure while making passport");
+		}
+		
+		PassportApplication pa3=new PassportApplication("Jack", 48, "Indian", 1);
+		try {
+		pa3.mendatoryChecks();
+		}catch (Exception e) {
+			logger.info("error occure while making passport");
+		}
+		
+		
+		PassportApplication pa4=new PassportApplication("Akarsh", 19, "Indian", 0);
+		try {
+			System.out.println("AKARSh");
+		pa4.mendatoryChecks();
+		}catch (Exception e) {
+			logger.info("error occure while making passport");
+		}
+		
+		
+		List<PassportApplication > list = new LinkedList<>();
+		list.add(pa);
+		list.add(pa1);
+		list.add(pa2);
+		list.add(pa3);
+		list.add(pa4);
+		try {
+		List<PassportApplication>  list1=list.stream().filter(x->(x.getCriminalRrecod()==0)).collect(Collectors.toList());
+		
+		System.out.println(list1);
+		}catch (Exception e) {
+
+		}
+	}
+
+}

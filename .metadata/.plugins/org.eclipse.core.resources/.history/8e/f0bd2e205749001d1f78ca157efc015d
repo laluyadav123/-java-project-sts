@@ -1,0 +1,41 @@
+package Player;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+import java.util.stream.Collectors;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Player p = new Player("Lalu", 80);
+		Player p1 = new Player("Rishab", 400);
+		Player p2 = new Player("Akarsh", 60);
+		Player p3 = new Player("Gaurav", 90);
+		Player p4 = new Player("Lalit", 10);
+		
+		
+		Set<Player> set = new TreeSet<>((x,y)-> (x.score-y.score));
+		set.add(p);
+		set.add(p1);
+		set.add(p2);
+		set.add(p3);
+		set.add(p4);
+		
+	System.out.println(set);
+		
+	//	List<Player> set1= set.stream().sorted((x,y)->(y.score - x.score)).collect(Collectors.toList());
+		
+		
+	//			System.out.println(set1);
+				
+	//			List<Player> set2= set.stream().sorted((x,y)->(x.score - y.score)).collect(Collectors.toList());
+				
+				
+	//			System.out.println(set2);
+	
+	}
+
+}

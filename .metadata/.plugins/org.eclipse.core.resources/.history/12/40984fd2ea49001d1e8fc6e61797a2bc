@@ -1,0 +1,30 @@
+package UsingInterface;
+
+import EMployeProject.Bonus;
+
+public class Employee {
+	public static final int bonus=10000;
+	private String name;
+	private int salary;
+	
+	public Employee(String name, int salary) {
+		super();
+		this.name = name;
+		this.salary = salary;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", salary=" + salary + "]";
+	}
+	
+	public int getbonus() {
+		if(salary<20000) {
+			this.salary=this.salary+bonus;
+		}
+		return this.salary;
+		
+		
+	}
+
+}

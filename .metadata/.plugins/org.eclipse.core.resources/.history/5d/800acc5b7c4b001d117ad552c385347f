@@ -1,0 +1,11 @@
+package com.sortedsalary;
+
+public class EmpMainClass {
+
+	public static void main(String[] args) {
+		
+		Employee e = new Employee(101, "Aryan", 20000);
+
+	}
+
+}

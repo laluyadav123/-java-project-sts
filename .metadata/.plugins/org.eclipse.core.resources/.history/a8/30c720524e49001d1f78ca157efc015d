@@ -1,0 +1,28 @@
+package Player;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Player p = new Player("Lalu", 80);
+		Player p1 = new Player("Rishab", 80);
+		Player p2 = new Player("Akarsh", 80);
+		Player p3 = new Player("Gaurav", 80);
+		Player p4 = new Player("Lalit", 80);
+		
+		
+		Set<Player> set = new HashSet<>();
+		set.add(p);
+		set.add(p1);
+		set.add(p2);
+		set.add(p3);
+		set.add(p4);
+		
+		System.out.println(set);
+		
+	}
+
+}

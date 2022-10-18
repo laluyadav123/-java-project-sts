@@ -1,0 +1,26 @@
+
+…
+java:S6204B"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(·¥ú§8Ë˜¿©½0H­RMAJORZ
+CODE_SMELL
+p	java:S106E"9Replace this use of System.out or System.err by a logger.(æ²¹Œüÿÿÿÿ8Šş­½0H¿	RMAJORZ
+CODE_SMELL
+k	java:S106+"9Replace this use of System.out or System.err by a logger.(ÀÕüÿ8ÛÒı¬½0H²	RMAJORZ
+CODE_SMELL
+p	java:S1064"9Replace this use of System.out or System.err by a logger.(ÏÌ‘üÿÿÿÿ8ÛÒı¬½0H³	RMAJORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(ÀôŸÉıÿÿÿÿ8éƒø¬½0H¦	RMAJORZ
+CODE_SMELL
+[	java:S108F")Either remove or fill this block of code.(”ı¾8á½ì¬½0H‘	RMAJORZ
+CODE_SMELL
+k	java:S106#"9Replace this use of System.out or System.err by a logger.(ø¡ã8ÛÒı¬½0H±	RMAJORZ
+CODE_SMELL
+‚
+java:S1192"GDefine a constant instead of duplicating this literal "Indian" 5 times.(˜Ú”şÿÿÿÿ8ì†Æ¬½0H€	RCRITICALZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(À®„¤ÿÿÿÿÿ8ÜœÀ©½0H®RMAJORZ
+CODE_SMELL
+™
+java:S1192"cDefine a constant instead of duplicating this literal "error occure while making passport" 5 times.(•Ÿ–ù8–»÷©½0H§RCRITICALZ
+CODE_SMELL
+k	java:S106D"9Replace this use of System.out or System.err by a logger.(÷ğåŸ8ÛÒı¬½0H´	RMAJORZ
+CODE_SMELL

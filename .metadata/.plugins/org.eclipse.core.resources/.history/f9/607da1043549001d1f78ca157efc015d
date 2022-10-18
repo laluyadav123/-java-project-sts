@@ -1,0 +1,12 @@
+package FunctionalInterface;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		FunctinalInterface fun = (x,y)->(x+y);
+		
+		System.out.println(fun.add(10, 10));
+	}
+
+}

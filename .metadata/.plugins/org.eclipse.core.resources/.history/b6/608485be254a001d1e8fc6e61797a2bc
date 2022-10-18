@@ -1,0 +1,17 @@
+package com.referencing;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+		
+		Student s= new Student(101, 20000);
+		Bonus b=s::bonuscal;
+		b.addBonus();
+		System.out.println(s);
+		
+		Bonus b1= Student::add;
+		
+
+	}
+
+}

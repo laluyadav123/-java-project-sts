@@ -1,0 +1,27 @@
+package com.mainproject;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+
+
+class PassportApplicationTest {
+
+	@Test
+	void nationalityTestMethod() {
+		PassportApplication p= new PassportApplication("Lalu", 24, "Indian", 0);
+		String actual =p.nationalityCheck();
+		String expected = "test case successfull";
+		assertEquals(expected,actual);
+	}
+
+	
+	@Test
+	void nationalityCheckTestMethod() {
+		PassportApplication p= new PassportApplication("Lalu", 24, "Indian", 0);
+		String actual =p.nationalityCheck();
+		String expected = "test case successfull";
+		assertEquals(expected,actual);
+	}
+}

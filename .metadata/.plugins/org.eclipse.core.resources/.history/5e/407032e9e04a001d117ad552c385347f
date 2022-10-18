@@ -1,0 +1,27 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class UserAuthenticationTest {
+	
+	
+	UserAuthentication ua;
+	
+	void objectCreation() {
+		
+		ua= new UserAuthentication();
+	}
+
+	@Test
+	void loginUserSuccessTest() {
+	
+		String actual = ua.loginuser("Akarsh", "Akarsh009");
+		String expected = "Successfully Logged In";
+		assertEquals(expected, actual);
+	}
+	
+	void loginUserFailureTest() {
+		UserAuthentication ua = new UserAuthentication();
+		assertThrows(RuntimeException.class,()->ua.loginuser("", "Akarsh009"));
+	}
+}

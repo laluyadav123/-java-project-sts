@@ -1,0 +1,12 @@
+
+P
+java:S5960("+Remove this assertion from production code.(ÌàÜÏH´RMAJORZBUG
+k	java:S106"9Replace this use of System.out or System.err by a logger.(õ—Ø¼8Óßÿ†½0H¿RMAJORZ
+CODE_SMELL
+F
+java:S1220""Move this file to a named package.HðRMINORZ
+CODE_SMELL
+p	java:S106""9Replace this use of System.out or System.err by a logger.(»½ä”úÿÿÿÿ8Óßÿ†½0H¾RMAJORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(³¾Ãä8Óßÿ†½0H½RMAJORZ
+CODE_SMELL

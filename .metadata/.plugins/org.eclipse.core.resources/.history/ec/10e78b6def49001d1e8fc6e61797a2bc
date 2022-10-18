@@ -1,0 +1,28 @@
+package UsingInterface;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Main1 {
+
+	public static void main(String[] args) {
+		
+		
+		Employee emp =new Employee("Lalu", 123);
+		Employee emp1 =new Employee("Lalu", 123);
+		Employee emp2 =new Employee("Lalu", 123);
+		
+		
+		List<Employee> list =new ArrayList<>();
+		list.add(emp);
+		list.add(emp1);
+		list.add(emp2);
+		
+		
+		Collections.sort(null);
+		
+
+	}
+
+}

@@ -1,0 +1,11 @@
+
+i
+java:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8¶“·Š½0H±RINFOZ
+CODE_SMELL
+{
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(š™Ç‡ıÿÿÿÿ8¶“·Š½0H³RBLOCKERZBUG
+w
+java:S2147"DCombine this catch with the one at line 19, which has the same body.(É®£8¶“·Š½0H´RMINORZ
+CODE_SMELL
+}
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(«³ãÁ8¶“·Š½0H²RBLOCKERZBUG

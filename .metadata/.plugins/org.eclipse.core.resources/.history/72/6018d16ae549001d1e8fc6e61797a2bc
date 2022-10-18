@@ -1,0 +1,36 @@
+package EMployeProject;
+
+import java.util.LinkedList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+	
+		Employe e = new Employe("Lalu", 20000);
+		Employe e1 = new Employe("Aryan", 220000);
+		
+		Employe e2 = new Employe("Akarsh", 10000);
+		Employe e3 = new Employe("Lalit", 15000);
+		Employe e4 = new Employe("Gaurav", 30000);
+		
+		List<Employe> list =new LinkedList<>();
+		list.add(e);
+		list.add(e1);
+		list.add(e2);
+		list.add(e3);
+		list.add(e4);
+		
+		
+		List<Employe> list1 =list.stream().filter((x)->(x.salary<20000)).collect(Collectors.toList());
+		
+		System.out.println("salary less then 200000 :"+list1);
+		
+		List<Integer> list2 = list.stream().map((x)->(x.addbonus())).collect(Collectors.toList());
+		System.out.println("After Bonus Add"+list2);
+
+	}
+
+}

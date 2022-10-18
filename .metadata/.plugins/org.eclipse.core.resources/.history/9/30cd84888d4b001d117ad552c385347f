@@ -1,0 +1,7 @@
+package com.mainproject;
+
+public interface Passport {
+	
+	public String nationality="Indian";
+
+}

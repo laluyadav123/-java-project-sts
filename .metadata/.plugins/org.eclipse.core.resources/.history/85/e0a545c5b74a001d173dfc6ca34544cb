@@ -1,0 +1,46 @@
+package project;
+
+public class DLMain {
+
+	public static void main(String[] args) {
+		
+		DrivingL dl = new DrivingL(19, 0, 0);
+		
+		dl.ageverifi();
+		dl.policeVarifi();
+		dl.medicalCheck();
+		
+		System.out.println(dl);
+		
+		DrivingL dl1 = new DrivingL(16, 0, 1);
+		
+		dl1.ageverifi();
+		dl1.policeVarifi();
+		dl1.medicalCheck();
+		
+		DrivingL dl2 = new DrivingL(19, 1, 0);
+		
+		dl2.ageverifi();
+		dl2.policeVarifi();
+		dl2.medicalCheck();
+		
+		DrivingL dl3 = new DrivingL(15, 0, 0);
+		
+		dl3.ageverifi();
+		dl3.policeVarifi();
+		dl3.medicalCheck();
+		
+		DrivingL dl4 = new DrivingL(55, 1, 0);
+		
+		dl4.ageverifi();
+		dl4.policeVarifi();
+		dl4.medicalCheck();
+		
+
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,13 @@
+import java.lang.System.Logger;
+
+public class UserAuthentication {
+	
+	public void loginuser(String username ,String password) {
+		Log logger = LogFa
+		if(username.isBlank()) {
+			Logger.info("Username is black");
+			throw new RuntimeException();
+		}
+	}
+
+}

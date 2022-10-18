@@ -1,0 +1,9 @@
+package com.sortedsalary;
+
+public class Employee {
+	
+	private int id;
+	private String name;
+	
+
+}

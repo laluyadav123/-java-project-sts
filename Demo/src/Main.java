@@ -1,0 +1,14 @@
+import org.apache.commons.configuration2.PropertiesConfiguration;
+import org.apache.commons.configuration2.builder.fluent.Configurations;
+import org.apache.commons.configuration2.ex.ConfigurationException;
+
+public class Main {
+	
+	public static void main(String[] args) throws ConfigurationException {
+		
+		Configurations configure = new Configurations();
+		PropertiesConfiguration config = configure.properties("Configuration.Property");
+		System.out.println(config.getInt("bonus"));
+	}
+
+}

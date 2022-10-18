@@ -1,0 +1,112 @@
+package com.mainproject;
+
+public class PassportApplication {
+	
+	private String name;
+	private int age;
+	private String nationality;
+	private String criminalRrecod;
+	private String Indian;
+	
+	
+	public PassportApplication(String name, int age, String nationality, String criminalRrecod) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.nationality = nationality;
+		this.criminalRrecod = criminalRrecod;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public int getAge() {
+		return age;
+	}
+
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+
+	public String getNationality() {
+		return nationality;
+	}
+
+
+	public void setNationality(String nationality) {
+		this.nationality = nationality;
+	}
+
+
+	public String getCriminalRrecod() {
+		return criminalRrecod;
+	}
+
+
+	public void setCriminalRrecod(String criminalRrecod) {
+		this.criminalRrecod = criminalRrecod;
+	}
+
+	
+	public void mendatoryChecks() {
+		
+		if(age>18) 
+			
+			System.out.println("You Clear The Age Varification ");
+		
+		else if(nationality=="Indian") {
+			System.out.println("Your Nationality is INDIAN");
+		}
+			else if(criminalRrecod=="No Record") {
+				
+				System.out.println("Your CRIMINAL RECORD is clear");
+				
+			}else {
+				System.out.println("you are not ELIGIBLE");
+		}
+			
+			
+		
+		
+		
+		
+		
+		
+	}
+	
+
+	@Override
+	public String toString() {
+		return "PassportApplication [name=" + name + ", age=" + age + ", nationality=" + nationality
+				+ ", criminalRrecod=" + criminalRrecod + "]";
+	}
+	
+	
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

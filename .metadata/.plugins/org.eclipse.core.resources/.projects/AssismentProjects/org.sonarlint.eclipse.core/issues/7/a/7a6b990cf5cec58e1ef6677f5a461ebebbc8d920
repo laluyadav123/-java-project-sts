@@ -1,0 +1,31 @@
+
+k	java:S106U"9Replace this use of System.out or System.err by a logger.(­éÄ8ÛÁè¨½0H‡RMAJORZ
+CODE_SMELL
+}	java:S112K"FDefine and throw a dedicated exception instead of using a generic one.(áêİ™ıÿÿÿÿ8æŞ×©½0HˆRMAJORZ
+CODE_SMELL
+}	java:S112W"FDefine and throw a dedicated exception instead of using a generic one.(áêİ™ıÿÿÿÿ8úóÒ©½0H‰RMAJORZ
+CODE_SMELL
+m
+java:S4973R"<Strings and Boxed types should be compared using "equals()".(ã´¦†úÿÿÿÿ8Š›Ğ­½0HŠRMAJORZBUG
+n	java:S125}"<This block of commented-out lines of code should be removed.(‚³×8·“Ø­½0HRMAJORZ
+CODE_SMELL
+k	java:S106G"9Replace this use of System.out or System.err by a logger.(¸€Ğ—8¢¦¨¨½0HRMAJORZ
+CODE_SMELL
+k	java:S106a"9Replace this use of System.out or System.err by a logger.(õ‰ï«8Š›Ğ­½0HRMAJORZ
+CODE_SMELL
+p	java:S106d"9Replace this use of System.out or System.err by a logger.(ö¡™æøÿÿÿÿ8ÛÁè¨½0H‘RMAJORZ
+CODE_SMELL
+‘
+java:S1192K"VDefine a constant instead of duplicating this literal "your are not eligible" 3 times.(áêİ™ıÿÿÿÿ8æŞ×©½0H’RCRITICALZ
+CODE_SMELL
+k	java:S106I"9Replace this use of System.out or System.err by a logger.(·†ìĞ8›ı¯½0H–RMAJORZ
+CODE_SMELL
+k	java:S106S"9Replace this use of System.out or System.err by a logger.(Ì’õ˜8Š›Ğ­½0H—RMAJORZ
+CODE_SMELL
+k	java:S106s"9Replace this use of System.out or System.err by a logger.(’‚ğ8ÛÁè¨½0H˜RMAJORZ
+CODE_SMELL
+
+java:S1128"]Remove this unused import 'org.apache.logging.log4j.core.jackson.ListOfMapEntryDeserializer'.(ıùøÏ8óŸŠ¯½0H™RMINORZ
+CODE_SMELL
+}	java:S112g"FDefine and throw a dedicated exception instead of using a generic one.(áêİ™ıÿÿÿÿ8æŞ×©½0H›RMAJORZ
+CODE_SMELL

@@ -1,0 +1,15 @@
+import java.lang.module.Configuration;
+
+import org.apache.commons.configuration2.PropertiesConfiguration;
+import org.apache.commons.configuration2.builder.fluent.Configurations;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Configurations configure = new Configurations();
+		PropertiesConfiguration config = configure.properties("Configuration.Property")
+		
+	}
+
+}

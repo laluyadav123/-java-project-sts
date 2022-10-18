@@ -1,0 +1,14 @@
+
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùâ¦ÎH¶RMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(ç’¤™8Îü³§½0H·RMAJORZ
+CODE_SMELL
+b
+java:S1611"/Remove the parentheses around the "x" parameter(ˆçüÝ8œ¦³§½0H¸RMINORZ
+CODE_SMELL
+c
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8œ¦³§½0H¹RMINORZ
+CODE_SMELL
+p
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8œ¦³§½0H»RMINORZ
+CODE_SMELL

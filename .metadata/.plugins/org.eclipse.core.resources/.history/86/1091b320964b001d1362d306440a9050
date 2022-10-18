@@ -1,0 +1,122 @@
+package com.mainproject;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+import project.DlDatabase;
+
+
+
+public class PassportApplication {
+	
+	Log logger = LogFactory.getLog(PassportApplication.class);
+
+	private String name;
+	private int age;
+	private int nationality;
+	private int criminalRrecod;
+
+	public PassportApplication(String name, int age, int nationality, int criminalRrecod) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.nationality = nationality;
+		this.criminalRrecod = criminalRrecod;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public int getNationality() {
+		return nationality;
+	}
+
+	public void setNationality(int nationality) {
+		this.nationality = nationality;
+	}
+
+	public int getCriminalRrecod() {
+		return criminalRrecod;
+	}
+
+	public void setCriminalRrecod(int criminalRrecod) {
+		this.criminalRrecod = criminalRrecod;
+	}
+
+	@Override
+	public String toString() {
+		return "PassportApplication [name=" + name + ", age=" + age + ", nationality=" + nationality
+				+ ", criminalRrecod=" + criminalRrecod + "]";
+	}
+
+	public String ageVerifi() {
+
+		if (age > 18) {
+
+			System.out.println("You Clear The Age Varification ");
+		} else {
+			System.out.println("you age is not eligible for passport");
+			logger.info("your age not 18");
+			throw new RuntimeException("your are not eligible");
+		}
+		return "test case successfull";
+	}
+
+	public String nationalityCheck() {
+
+		if (nationality == 0) {
+			System.out.println("Your Nationality is INDIAN");
+		} else {
+			System.out.println("your nationality is not INDIAN");
+			logger.info("You Are Not INDIAN");
+			throw new RuntimeException("your are not eligible");
+		}
+		return "test case successfull";
+
+	}
+
+	public void recordCheck() {
+
+		if (criminalRrecod == 0) 
+
+			System.out.println("Your CRIMINAL RECORD is clear");
+
+		 else {
+			System.out.println("you Have a Criminal record");
+			logger.info("you Have A criminal Record");
+			throw new RuntimeException("your are not eligible");
+		}
+
+	}
+
+	public void mendatoryChecks() {
+		
+		ageVerifi();
+		nationalityCheck();
+		recordCheck();
+		PassportDatabase pd = new PassportDatabase();
+		pd.saveData(this.name,this.age);
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+}

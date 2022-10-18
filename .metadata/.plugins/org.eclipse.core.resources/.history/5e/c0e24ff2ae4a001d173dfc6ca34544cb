@@ -1,0 +1,14 @@
+import java.lang.System.Logger;
+
+import org.apache.logging.log4j.jcl.LogFactoryImpl;
+
+public class UserAuthentication {
+	
+	public void loginuser(String username ,String password) {
+		Log logger = LogFa
+		if(username.isBlank()) {
+			Logger.i
+		}
+	}
+
+}

@@ -1,0 +1,14 @@
+
+d	java:S106"9Replace this use of System.out or System.err by a logger.(¸ÚÙÇHèRMAJORZ
+CODE_SMELL
+i	java:S106<"9Replace this use of System.out or System.err by a logger.(‚ùÝüÿÿÿÿHßRMAJORZ
+CODE_SMELL
+i	java:S106/"9Replace this use of System.out or System.err by a logger.(Ê¾£ÔýÿÿÿÿHÞRMAJORZ
+CODE_SMELL
+d	java:S106G"9Replace this use of System.out or System.err by a logger.(éý‰ñHçRMAJORZ
+CODE_SMELL
+¤
+java:S1192"pDefine a constant instead of duplicating this literal "error occure while allping driving licence for " 5 times.(ÓŒ‹¶øÿÿÿÿHàRCRITICALZ
+CODE_SMELL
+d	java:S106!"9Replace this use of System.out or System.err by a logger.(Å–ïþHæRMAJORZ
+CODE_SMELL

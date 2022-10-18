@@ -1,0 +1,32 @@
+package com.mainproject;
+
+public class PassportMain {
+
+	public static void main(String[] args) {
+		
+		PassportApplication pa=new PassportApplication("jon", 18, "Indian", "No Record");
+		pa.mendatoryChecks();
+		System.out.println(pa);
+		
+		PassportApplication pa1=new PassportApplication("jon", 18, "Indian", "No Record");
+		pa.mendatoryChecks();
+		System.out.println(pa1);
+		
+		
+		PassportApplication pa2=new PassportApplication("Bob", 34, "Indian", "Criminal Record Found");
+
+		pa.mendatoryChecks();
+		System.out.println(pa2);
+		
+		PassportApplication pa3=new PassportApplication("Jack", 48, "Indian", "Criminal Record Found");
+		
+		pa.mendatoryChecks();
+		System.out.println(pa3);
+		
+		
+		PassportApplication pa4=new PassportApplication("jon", 18, "Indian", "No Record");
+		pa.mendatoryChecks();
+		System.out.println(pa4);
+	}
+
+}

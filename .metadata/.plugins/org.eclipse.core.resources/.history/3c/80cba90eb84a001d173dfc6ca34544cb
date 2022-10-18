@@ -1,0 +1,53 @@
+package project;
+
+public class DrivingL {
+
+	private int age;
+	private int policeVerificatin;
+	private int mediCheck;
+
+	public DrivingL(int age, int policeVerificatin, int mediCheck) {
+		super();
+		this.age = age;
+		this.policeVerificatin = policeVerificatin;
+		this.mediCheck = mediCheck;
+	}
+
+	
+	
+	@Override
+	public String toString() {
+		return "DrivingL [age=" + age + ", policeVerificatin=" + policeVerificatin + ", mediCheck=" + mediCheck + "]";
+	}
+
+
+
+	public void ageverifi() {
+		if (age > 18) {
+			System.out.println("you are eligible for DL");
+		} else {
+			System.out.println("grow up kid");
+		}
+	}
+
+	public void policeVarifi() {
+
+		if (policeVerificatin == 0) {
+			System.out.println("police verification done");
+		} else {
+			System.out.println("your not verified");
+		}
+
+	}
+
+	public void medicalCheck() {
+
+		if (mediCheck == 0) {
+			System.out.println("medi chack done");
+		} else {
+			System.out.println("you are not fit for DL");
+		}
+
+	}
+
+}

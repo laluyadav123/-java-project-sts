@@ -1,0 +1,30 @@
+package com.collections;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Student st = new Student(11, "akarsh");
+
+		Student st1 = new Student(11, "lalu");
+		Student st2 = new Student(12, "gaurab");
+		Student st3 = new Student(13, "arayn");
+		Student st4 = new Student(14, "lalit");
+		
+		List<Student> list =new ArrayList<>();
+		list.add(st);
+		list.add(st1);
+		list.add(st2);
+		list.add(st3);
+		list.add(st4);
+	///	System.out.println(list);
+		
+		Collections.sort(list,Collections.reverseOrder((x,y)->x.id-y.id));
+		System.out.println(list);
+	}
+
+}
